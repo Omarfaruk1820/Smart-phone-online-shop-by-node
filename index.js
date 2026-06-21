@@ -14,7 +14,7 @@ const getRelatedAccessories = require("./utils/getRelatedAccessories");
 // ===== Middleware =====
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://your-domain.com"],
+    origin: ["https://smart-phone-auth.web.app"],
     credentials: true,
   }),
 );
